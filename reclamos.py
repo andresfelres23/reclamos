@@ -43,8 +43,8 @@ def main():
     Hum = st.text_input("Humedad:")
     pH = st.text_input("pH:")
     rai = st.text_input("Lluvia:")
-    rafsdfdsf = st.text_input("Lluvia:")
-    dsfsdfsdf = st.text_input("Lluvia:")
+    rafsdfdsf = st.text_input("dsas:")
+    dsfsdfsdf = st.text_input("Lluvsada:")
     
     # El botón predicción se usa para iniciar el procesamiento
     if st.button("Predicción :"): 
