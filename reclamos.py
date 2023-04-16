@@ -42,7 +42,9 @@ def main():
     Temp = st.text_input("Temperatura:")
     Hum = st.text_input("Humedad:")
     pH = st.text_input("pH:")
-    rain = st.text_input("Lluvia:")
+    rai = st.text_input("Lluvia:")
+    ra = st.text_input("Lluvia:")
+    r = st.text_input("Lluvia:")
     
     # El botón predicción se usa para iniciar el procesamiento
     if st.button("Predicción :"): 
@@ -53,7 +55,11 @@ def main():
                     np.float_(Temp.title()),
                     np.float_(Hum.title()),
                     np.float_(pH.title()),
+                    np.float_(rain.title(),
+                    np.float_(rain.title(),
+                    np.float_(rain.title(),
                     np.float_(rain.title())]
+                                              
         predictS = model_prediction(x_in, model)
         st.success('EL CULTIVO RECOMENDADO ES: {}'.format(predictS[0]).upper())
 
