@@ -55,9 +55,9 @@ def main():
                     np.float_(Temp.title()),
                     np.float_(Hum.title()),
                     np.float_(pH.title()),
-                    np.float_(rain.title(),
-                    np.float_(rain.title(),
-                    np.float_(rain.title(),
+                    np.float_(rain.title()),
+                    np.float_(rain.title()),
+                    np.float_(rain.title()),
                     np.float_(rain.title())]
                                               
         predictS = model_prediction(x_in, model)
