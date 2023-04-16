@@ -56,9 +56,9 @@ def main():
                     np.float_(Hum.title()),
                     np.float_(pH.title()),
                     np.float_(rain.title()),
-                    np.float_(rain.title()),
-                    np.float_(rain.title()),
-                    np.float_(rain.title())]
+                    np.float_(rai.title()),
+                    np.float_(ra.title()),
+                    np.float_(r.title())]
                                               
         predictS = model_prediction(x_in, model)
         st.success('EL CULTIVO RECOMENDADO ES: {}'.format(predictS[0]).upper())
