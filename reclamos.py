@@ -55,7 +55,6 @@ def main():
                     np.float_(Temp.title()),
                     np.float_(Hum.title()),
                     np.float_(pH.title()),
-                    np.float_(rain.title()),
                     np.float_(rai.title()),
                     np.float_(ra.title()),
                     np.float_(r.title())]
