@@ -34,6 +34,10 @@ def main():
     """
     st.markdown(html_temp,unsafe_allow_html=True)
     #listas desplegables
+    opcion1= ['CBH', 'CWT', 'JZI', 'KML','EPX' ,'C2B', 'JWT', 'RAB' ,'SSI', 'ART' ,'CSR' ,'CCR',
+ 'ADM', 'LWC' ,'TTW' ,'TST']
+
+    
     # Lecctura de datos
     #Datos = st.text_input("Ingrese los valores : N P K Temp Hum pH lluvia:")
     AG = st.text_input("AGENCIA:")
@@ -45,6 +49,7 @@ def main():
     rai = st.text_input("Lluvia:")
     rafsdfdsf = st.text_input("dsas:")
     dsfsdfsdf = st.text_input("Lluvsada:")
+    opcion_seleccionada = st.selectbox("Elige una opción", opcion1)
     
     # El botón predicción se usa para iniciar el procesamiento
     if st.button("Predicción :"): 
